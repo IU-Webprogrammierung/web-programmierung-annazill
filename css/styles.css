@@ -2,6 +2,7 @@
 body {
     background-color: rgb(255, 245, 238);
     color: rgb(128, 130, 248);
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -11,16 +12,16 @@ h1 {
 
 /* Navigation Bar */
 .navbar {
-    list-style-type: none; /* Removes bullet points from items */
+    list-style-type: none;
     margin: 0;
     margin-left: 72px;
     margin-right: 72px;
     padding: 0;
-    display: flex; /* Horizontal layout */
+    display: flex;
 }
 
 .navbar-logo {
-    margin-right: auto; /* Pushes other elements to the right */
+    margin-right: auto;
     display: flex;
     align-items: center;
 }
@@ -31,11 +32,13 @@ h1 {
 }
 
 .navbar-item a {
-    display: block; /* Whole element clickable by filling out entire space */
+    display: block;
     text-align: center;
     padding: 16px;
     margin: 8px;
     text-decoration: none;
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .navbar-item a.active {
@@ -66,18 +69,20 @@ footer {
 
 .footer-content h2 {
     margin: 0px;
+    font-weight: 900;
 }
 
 .footer-content h4 {
     margin: 0px;
     margin-top: 32px;
-    color: black;
+    font-weight: 900;
 }
 
 .footer-content p {
     margin: 0px;
     margin-top: 4px;
     color: black;
+    font-weight: 300;
 }
 
 .footer-content a {
@@ -87,6 +92,8 @@ footer {
     margin-bottom: 32px;
     display: block;
     width: fit-content;
+    font-weight: 900;
+    font-size: 16px;
 }
 
 .footer-content a:visited {
