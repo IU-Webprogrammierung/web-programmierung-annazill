@@ -36,7 +36,7 @@ h3 {
     padding-right: 30px;
     padding-top: 12px;
     padding-bottom: 12px;
-    border-radius: 25px;
+    border-radius: 24px;
     height: 48px;
     width: 180px;
 }
@@ -45,6 +45,10 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.dark-text {
+    color: rgb(43, 43, 68);
 }
 
 /* Navigation Bar */
@@ -147,13 +151,12 @@ footer {
 }
 
 /* Home */
-.home-name-img {
+.home-introduction-img {
     width: 60%;
 }
 
 .home-introduction-text {
     width: 60%;
-    color:black;
     text-align: center;
 }
 
@@ -168,3 +171,18 @@ footer {
     width: 50px;
     height: 50px;
 }
+
+.home-content-section {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    margin-left: 72px;
+    margin-right: 72px;
+ }
+ 
+ .home-content-img {
+    width: 50%;
+    border-radius: 32px;
+ }
