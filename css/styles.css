@@ -111,17 +111,19 @@ footer {
 
 .footer-content h2 {
     margin: 0px;
+    color: rgb(43, 43, 68);
 }
 
 .footer-content h4 {
     margin: 0px;
     margin-top: 32px;
+    color: rgb(43, 43, 68);
 }
 
 .footer-content p {
     margin: 0px;
     margin-top: 4px;
-    color: black;
+    color: rgb(43, 43, 68);
 }
 
 .footer-content a {
