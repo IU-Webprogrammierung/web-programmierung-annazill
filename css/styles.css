@@ -94,6 +94,72 @@ h3 {
     color: inherit;
 }
 
+/* Navigation Bar - Burger Menu */
+#navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 245, 238);
+    z-index: 100;
+    padding: 10px 72px;
+}
+
+#navbar-links.menu-open {
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.15);
+}
+
+.hamburger-icon {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.hamburger-icon img {
+    width: 48px;
+    height: 48px;
+}
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+    #navbar-links {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(255, 245, 238);
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+        padding-top: 76px;
+    }
+
+    .navbar {
+        padding-top: 8px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
 /* Footer */
 footer {
     display: flex;
