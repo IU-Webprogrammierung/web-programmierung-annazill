@@ -51,6 +51,18 @@ h3 {
     color: rgb(43, 43, 68);
 }
 
+.accessability-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 /* Navigation Bar */
 .navbar {
     list-style-type: none;
