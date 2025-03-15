@@ -106,36 +106,8 @@ h3 {
     color: inherit;
 }
 
-/* Navigation Bar - Burger Menu */
-#navbar-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    right: 0;
-    background-color: rgb(255, 245, 238);
-    z-index: 100;
-    padding: 10px 72px;
-}
-
-#navbar-links.menu-open {
-    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.15);
-}
-
-.hamburger-icon {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-}
-
-.hamburger-icon img {
-    width: 48px;
-    height: 48px;
-}
-
-/* Desktop */
-@media screen and (min-width: 768px) {
+/* Navigation Bar - Desktop */
+@media screen and (min-width: 1024px) {
     #navbar-links {
         display: flex;
         flex-direction: row;
@@ -149,8 +121,12 @@ h3 {
     }
 }
 
-/* Mobile */
-@media screen and (max-width: 767px) {
+/* Navigation Bar - Mobile */
+@media screen and (max-width: 1023px) {
+    body {
+        padding-top: 100px;
+    }
+
     nav {
         position: fixed;
         top: 0;
@@ -161,14 +137,37 @@ h3 {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
-    body {
-        padding-top: 76px;
-    }
-
     .navbar {
         padding-top: 8px;
         margin-left: 16px;
         margin-right: 16px;
+    }
+
+    #navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: rgb(255, 245, 238);
+        z-index: 100;
+        padding: 10px 72px;
+    }
+
+    .hamburger-icon {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .hamburger-icon img {
+        width: 48px;
+        height: 48px;
+    }
+
+    #navbar-links.menu-open {
+        box-shadow: 0 8px 6px rgba(0, 0, 0, 0.15);
     }
 }
 
@@ -232,7 +231,7 @@ footer {
     height: 50px;
 }
 
-/* Desktop (1025px and above) */
+/* Desktop */
 @media screen and (min-width: 1025px) {
     .footer-social-media {
         margin-top: 200px;
@@ -288,9 +287,9 @@ footer {
     display: flex;
     justify-content: center;
     gap: 32px;
- }
+}
 
- .home-social-media img {
+.home-social-media img {
     margin-top: 32px;
     width: 50px;
     height: 50px;
@@ -304,9 +303,9 @@ footer {
     margin-bottom: 96px;
     margin-left: 72px;
     margin-right: 72px;
- }
- 
- .home-content-img {
+}
+
+.home-content-img {
     width: 50%;
     border-radius: 32px;
- }
+}

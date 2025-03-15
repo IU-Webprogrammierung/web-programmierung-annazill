@@ -14,7 +14,7 @@ function toggelBurgerMenuInNavbar() {
 // Makes navbar behave properly on resize
 window.addEventListener('resize', function () {
     var navbarLinks = document.getElementById("navbar-links");
-    if (window.innerWidth >= 768) {
+    if (window.innerWidth >= 1024) {
         navbarLinks.style.display = "flex";
         navbarLinks.classList.remove("menu-open");
     } else if (!navbarLinks.classList.contains("menu-open")) {
