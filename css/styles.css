@@ -88,6 +88,16 @@ h3 {
     }
 }
 
+/* Mobile Only */
+@media screen and (max-width: 460px) {
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+}
+
 /* Navigation Bar */
 .navbar {
     list-style-type: none;
