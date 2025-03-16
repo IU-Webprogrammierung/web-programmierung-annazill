@@ -41,6 +41,9 @@ h3 {
     border-radius: 24px;
     height: 48px;
     width: 180px;
+    text-decoration: none;
+    font-weight: normal;
+    cursor: pointer;
 }
 
 .center {
