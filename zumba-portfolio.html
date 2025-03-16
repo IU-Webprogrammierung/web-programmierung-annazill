@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="de">
 
+<!-- Head -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,24 +14,48 @@
     <script defer src="javaScript/loader.js"> </script>
 </head>
 
+<!-- Body -->
+
 <body>
 
-    <ul class="navbar">
-        <li class="navbar-logo">
-            <a href="index.html">
-                <img src="images/logo.png" alt="Logo">
-            </a>
-        </li>
-        <li class="navbar-item"><a href="designer-portfolio.html">UX/UI</a></li>
-        <li class="navbar-item"><a href="photographer-portfolio.html">Fotografie</a></li>
-        <li class="navbar-item"><a class="active" href="zumba-portfolio.html">Zumba</a></li>
-        <li class="navbar-item"><a href="kontakt.html">Kontakt</a></li>
-    </ul>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="navbar">
+            <li class="navbar-logo">
+                <a href="index.html">
+                    <img src="images/general/logo.png" alt="Logo">
+                </a>
+            </li>
+            <div id="navbar-links">
+                <li class="navbar-item"><a href="designer-portfolio.html">UX/UI</a></li>
+                <li class="navbar-item"><a href="photographer-portfolio.html">Fotografie</a></li>
+                <li class="navbar-item"><a class="active" href="zumba-portfolio.html">Zumba</a></li>
+                <li class="navbar-item"><a href="kontakt.html">Kontakt</a></li>
+            </div>
+            <li class="hamburger-icon">
+                <a href="javascript:void(0);" onclick="toggelBurgerMenuInNavbar()">
+                    <img src="images/general/burgerMenuIcon.png" alt="Menu">
+                </a>
+            </li>
+        </ul>
+    </nav>
 
-    <h1>Zumba</h1>
+    <!-- Main Content -->
+    <main>
+        <section class="description-header">
+            <h2 class="dark-text">
+                Tanz mit mir!
+            </h2>
+
+            <h4 class="dark-text">
+                Hier findest du meine aktuelle Zumba-Playlist zum Mittanzen.
+            </h4>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer"> </footer>
+
 </body>
 
 </html>
