@@ -54,21 +54,30 @@
             </h3>
         </section>
 
-        <!-- WIP -->
-        <section class="description-header">
-            <form class="description-header">
-                <label for="betreff">Betreff:</label><br>
-                <input type="text" id="betreff" name="betreff"><br>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">E-Mail:</label><br>
-                <input type="email" id="email" name="email"><br>
-                <label for="nachricht">Nachricht:</label><br>
-                <textarea id="nachricht" name="nachricht"></textarea><br><br>
-                <input type="submit" value="Absenden">
+        <section class="form-container">
+            <form>
+                <div class="form-group">
+                    <label for="betreff">Betreff</label>
+                    <input type="text" id="betreff" name="betreff" placeholder="Worum soll es gehen?">
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Max Mustermann">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-Mail Adresse</label>
+                    <input type="email" id="email" name="email" placeholder="max.mustermann@muster.de">
+                </div>
+
+                <div class="form-group">
+                    <label for="nachricht">Nachricht</label>
+                    <textarea id="nachricht" name="nachricht" placeholder="Was willst du mir mitteilen?"></textarea>
+                </div>
             </form>
 
-            <p>If you click the "Submit" I will get back to you in the upcoming months.</p>
+            <button class="button">Senden</button>
         </section>
 
     </main>

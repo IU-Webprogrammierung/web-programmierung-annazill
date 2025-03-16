@@ -73,17 +73,17 @@ h3 {
     margin-right: auto;
     padding-left: 72px;
     padding-right: 72px;
-  }
-  
-  /* Tablet & Mobile */
-  @media screen and (max-width: 1024px) {
+}
+
+/* Tablet & Mobile */
+@media screen and (max-width: 1024px) {
     .description-header {
-      margin-top: 0px;
-      margin-bottom: 64px;
-      padding-left: 16px;
-      padding-right: 16px;
+        margin-top: 0px;
+        margin-bottom: 64px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
-  }
+}
 
 /* Navigation Bar */
 .navbar {
@@ -129,7 +129,7 @@ h3 {
 }
 
 /* Desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
     #navbar-links {
         display: flex;
         flex-direction: row;
@@ -143,8 +143,8 @@ h3 {
     }
 }
 
-/* Mobile */
-@media screen and (max-width: 1023px) {
+/* Tablet & Mobile */
+@media screen and (max-width: 1024px) {
     body {
         padding-top: 100px;
     }
@@ -427,5 +427,52 @@ footer {
         margin-left: 16px;
         margin-right: 16px;
         margin-bottom: 64px;
+    }
+}
+
+
+/* Contact */
+.form-container {
+    margin-bottom: 96px;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.form-group {
+    margin-bottom: 32px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(43, 43, 68);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 96%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: 2px solid rgb(168, 147, 237);
+}
+
+/* Tablet & Mobile */
+@media screen and (max-width: 1024px) {
+    .form-container {
+        margin-top: 0px;
+        margin-bottom: 64px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }
