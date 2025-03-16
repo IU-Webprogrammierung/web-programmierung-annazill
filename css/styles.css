@@ -66,19 +66,22 @@ h3 {
 .description-header {
     margin-top: 96px;
     margin-bottom: 64px;
-    margin-left: 72px;
-    margin-right: 72px;
-}
-
-/* Tablet & Mobile */
-@media screen and (max-width: 1024px) {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+  
+  /* Tablet & Mobile */
+  @media screen and (max-width: 1024px) {
     .description-header {
-        margin-top: 0px;
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-bottom: 64px;
+      margin-top: 0px;
+      margin-bottom: 64px;
+      padding-left: 16px;
+      padding-right: 16px;
     }
-}
+  }
 
 /* Navigation Bar */
 .navbar {
@@ -397,6 +400,11 @@ footer {
     margin-bottom: 96px;
     margin-left: 72px;
     margin-right: 72px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 72px;
+    padding-right: 72px;
 }
 
 .image-grid-column {
@@ -419,8 +427,8 @@ footer {
     }
 
     .image-grid-container {
-        margin-left: 16px;
-        margin-right: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
         margin-bottom: 64px;
     }
 }
