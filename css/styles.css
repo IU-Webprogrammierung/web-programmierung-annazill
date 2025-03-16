@@ -505,9 +505,19 @@ footer {
         margin-left: 16px;
         margin-right: 16px;
     }
+}
 
+/* Tablet Only */
+@media screen and (min-width: 461px) and (max-width: 1024px) {
     .contact-img {
         max-width: 80%;
         margin-top: 40px;
+    }
+}
+
+/* Mobile Only */
+@media screen and (max-width: 460px) {
+    .contact-img {
+       display: none;
     }
 }
