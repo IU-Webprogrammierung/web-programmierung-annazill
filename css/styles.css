@@ -13,7 +13,6 @@ body {
 h1,
 h2,
 h3,
-h4,
 .button {
     font-weight: 900;
 }
@@ -27,7 +26,7 @@ h2 {
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .button {
@@ -214,7 +213,7 @@ footer {
     color: rgb(43, 43, 68);
 }
 
-.footer-content h4 {
+.footer-content h3 {
     margin: 0px;
     margin-top: 32px;
     color: rgb(43, 43, 68);
