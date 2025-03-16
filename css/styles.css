@@ -63,6 +63,23 @@ h3 {
     border: 0;
 }
 
+.description-header {
+    margin-top: 96px;
+    margin-bottom: 64px;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+/* Tablet & Mobile */
+@media screen and (max-width: 1024px) {
+    .description-header {
+        margin-top: 0px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 64px;
+    }
+}
+
 /* Navigation Bar */
 .navbar {
     list-style-type: none;
@@ -370,5 +387,40 @@ footer {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+/* Photographer */
+.image-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 96px;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.image-grid-column {
+    flex: 20%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.image-grid-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Tablet & Mobile */
+@media screen and (max-width: 1024px) {
+    .image-grid-column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .image-grid-container {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 64px;
     }
 }
