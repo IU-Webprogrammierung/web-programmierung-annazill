@@ -526,3 +526,26 @@ footer {
        display: none;
     }
 }
+
+/* Zumba */
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(84, 53, 186);
+}
+
+table th,
+table td {
+    height: 64px;
+    padding: 8px;
+    border: 1px solid rgb(84, 53, 186);
+}
+
+table th:first-child,
+table td:first-child {
+    width: 300px;
+}
+
+table th:last-child,
+table td:last-child {
+    width: 474px;
+}
