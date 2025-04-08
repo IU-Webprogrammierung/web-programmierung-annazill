@@ -530,22 +530,29 @@ footer {
 /* Zumba */
 table {
     border-collapse: collapse;
-    border: 2px solid rgb(84, 53, 186);
+    color: rgb(43, 43, 68);
+    font-weight: 900;
 }
 
-table th,
 table td {
     height: 64px;
-    padding: 8px;
-    border: 1px solid rgb(84, 53, 186);
+    padding: 12px;
 }
 
-table th:first-child,
 table td:first-child {
     width: 300px;
 }
 
-table th:last-child,
-table td:last-child {
+table td:nth-child(2) {
     width: 474px;
+    border-left: 2px solid rgb(255, 102, 102);
+    border-right: 2px solid rgb(255, 102, 102);
+}
+
+table tr:nth-child(odd) {
+    background-color: #FFBCCB;
+}
+
+table tr:nth-child(even) {
+    background-color: #FEE2D3;
 }
