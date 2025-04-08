@@ -566,3 +566,43 @@ table td:last-child {
     width: 44px;
     height: 44px;
 }
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+    table td:first-child {
+        width: 200px;
+    }
+
+    table td:nth-child(2) {
+        width: 300px;
+    }
+
+    table td:last-child {
+        width: 44px;
+    }
+
+    .play-button {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 460px) {
+    table td:first-child {
+        width: 140px;
+    }
+
+    table td:nth-child(2) {
+        width: 180px;
+    }
+
+    table td:last-child {
+        width: 36px;
+    }
+
+    .play-button {
+        width: 28px;
+        height: 28px;
+    }
+}
