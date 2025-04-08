@@ -606,3 +606,11 @@ table td:last-child {
         height: 28px;
     }
 }
+
+.zumba-page .description-header h3 {
+    padding-bottom: 32px;
+}
+
+.zumba-page .description-header .button {
+    margin-right: 32px;
+}
