@@ -567,7 +567,23 @@ table td:last-child {
     height: 44px;
 }
 
-/* Tablet */
+.zumba-page {
+    margin-top: 96px;
+    margin-bottom: 96px;
+    margin-left: 72px;
+    margin-right: 72px;
+    display: flex;
+    gap: 32px;
+}
+
+/* Tablet & Mobile */
+@media (max-width: 1024px) {
+    .zumba-page {
+        flex-direction: column;
+    }
+}
+
+/* Tablet Only */
 @media screen and (max-width: 1024px) {
     table td:first-child {
         width: 200px;
@@ -587,7 +603,7 @@ table td:last-child {
     }
 }
 
-/* Mobile */
+/* Mobile Only */
 @media screen and (max-width: 460px) {
     table td:first-child {
         width: 140px;
@@ -605,12 +621,4 @@ table td:last-child {
         width: 28px;
         height: 28px;
     }
-}
-
-.zumba-page .description-header h3 {
-    padding-bottom: 32px;
-}
-
-.zumba-page .description-header .button {
-    margin-right: 32px;
 }
