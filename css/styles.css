@@ -34,16 +34,14 @@ h3 {
     border: none;
     color: white;
     background-color: rgb(84, 53, 186);
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 12px 30px; /* vertical + horizontal */
     border-radius: 24px;
-    height: 48px;
-    width: 180px;
     text-decoration: none;
     font-weight: normal;
     cursor: pointer;
+    display: inline-block;
+    line-height: 1; /* prevents text from bloating */
+    white-space: nowrap;
 }
 
 .center {
@@ -92,6 +90,7 @@ h3 {
     h1 {
         font-size: 26px;
     }
+
     h2 {
         font-size: 22px;
     }
@@ -523,11 +522,28 @@ footer {
 /* Mobile Only */
 @media screen and (max-width: 460px) {
     .contact-img {
-       display: none;
+        display: none;
     }
 }
 
 /* Zumba */
+.zumba-page {
+    margin-top: 96px;
+    margin-bottom: 96px;
+    display: flex;
+}
+
+.zumba-page .description-header {
+    margin-top: 0px;
+}
+
+.zumba-page .button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 32px;
+}
+
 table {
     border-collapse: collapse;
     color: rgb(43, 43, 68);
@@ -567,19 +583,26 @@ table td:last-child {
     height: 44px;
 }
 
-.zumba-page {
-    margin-top: 96px;
-    margin-bottom: 96px;
-    margin-left: 72px;
-    margin-right: 72px;
-    display: flex;
-    gap: 32px;
-}
-
 /* Tablet & Mobile */
 @media (max-width: 1024px) {
     .zumba-page {
         flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 64px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    table {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .zumba-page .button-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
     }
 }
 
