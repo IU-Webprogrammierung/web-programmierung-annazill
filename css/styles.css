@@ -703,3 +703,55 @@ table td:last-child {
         margin-bottom: 64px;
     }
 }
+
+/* Sample Project */
+.project-page {
+    padding: 16px 72px;
+    color: rgb(43, 43, 68);
+    font-weight: 600;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 32px;
+    text-decoration: none;
+    color: rgb(84, 53, 186);
+}
+
+.project-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.project-image {
+    margin: 32px 0;
+}
+
+.project-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.fullwidth-buttons a {
+    display: block;
+    text-align: center;
+    padding: 32px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.fullwidth-buttons a:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: rgb(84,53,186);
+}
+
+.fullwidth-buttons a:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(46,27,111);
+    margin-bottom: 32px;
+}
