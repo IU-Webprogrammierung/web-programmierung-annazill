@@ -18,15 +18,15 @@ h3,
 }
 
 h1 {
-    font-size: 40px;
-}
-
-h2 {
     font-size: 32px;
 }
 
-h3 {
+h2 {
     font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
 }
 
 .button {
@@ -97,11 +97,11 @@ h3 {
 /* Mobile Only */
 @media screen and (max-width: 460px) {
     h1 {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     h2 {
-        font-size: 22px;
+        font-size: 18px;
     }
 }
 
