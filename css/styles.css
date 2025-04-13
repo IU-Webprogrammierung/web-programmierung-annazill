@@ -741,7 +741,7 @@ table td:last-child {
     }
 }
 
-/* Sample Project */
+/* Project Detail */
 .project-page {
     padding: 16px 72px;
     color: rgb(43, 43, 68);
@@ -804,4 +804,11 @@ table td:last-child {
 
 .fullwidth-buttons a:last-child:hover {
     background-color: rgb(35, 20, 90);
+}
+
+/* Mobile Only */
+@media screen and (max-width: 460px) {
+    .project-image img {
+        display: none;
+    }
 }
