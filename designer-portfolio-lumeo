@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<!-- Head -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX/UI Project</title>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:500,900">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src="javaScript/loader.js"> </script>
+</head>
+
+<!-- Body -->
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="navbar">
+            <li class="navbar-logo">
+                <a href="index.html">
+                    <img src="images/general/logo.png" alt="Logo">
+                </a>
+            </li>
+            <div id="navbar-links">
+                <li class="navbar-item"><a href="designer-portfolio.html">UX/UI</a></li>
+                <li class="navbar-item"><a href="photographer-portfolio.html">Fotografie</a></li>
+                <li class="navbar-item"><a href="zumba-portfolio.html">Zumba</a></li>
+                <li class="navbar-item"><a href="contact.html">Kontakt</a></li>
+            </div>
+            <li class="hamburger-icon">
+                <a href="javascript:void(0);" onclick="toggelBurgerMenuInNavbar()">
+                    <img src="images/general/burgerMenuIcon.png" alt="Menu">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="project-page">
+            <a href="designer-portfolio.html" class="back-link">
+                ← Zurück zur Übersicht
+            </a>
+
+            <div class="tags">
+                <span class="tag">Tag</span>
+                <span class="tag">Langer Tag</span>
+                <span class="tag">Kleiner</span>
+            </div>
+
+            <h2>LUMEO Tunnelüberwachung</h2>
+
+            <div class="project-info">
+                <div>
+                    <h4>Bodytext</h4>
+                    <p>
+                        Die Überwachung von Tunneln erfordert das schnelle Erfassen und Bewerten verschiedener
+                        Informationen, besonders in zeitkritischen Notfällen. Ein komplexes System wie dieses muss
+                        intuitiv bedienbar und visuell klar strukturiert sein, um Fehlentscheidungen zu vermeiden. Im
+                        Rahmen meines UX-Studiums bot dieses Projekt die Möglichkeit, eine komplexe Unternehmenssoftware
+                        zur Lösung einer realen Herausforderung zu gestalten.
+                    </p>
+                </div>
+                <div>
+                    <h4>Key Facts:</h4>
+                    <ul>
+                        <li>12-wöchiger Designprozess</li>
+                        <li>Entwicklung einer neuen Softwarelösung mit Fokus auf optimale Unterstützung der Nutzer:innen
+                            in kritischen Situationen und Notfällen</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-image">
+                <img src="images/uxui/img_project_lumeo.png" alt="Projektbild">
+            </div>
+        </section>
+
+        <section class="fullwidth-buttons">
+            <a href="#">Projekt ABCDE ansehen →</a>
+            <a href="#">Projekt ABCDE ansehen →</a>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer"> </footer>
+</body>
+
+</html>
