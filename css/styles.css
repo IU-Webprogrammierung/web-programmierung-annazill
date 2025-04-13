@@ -672,6 +672,7 @@ table td:last-child {
 .project-card img {
     width: 100%;
     border-radius: 32px;
+    object-fit: cover;
 }
 
 .tags {

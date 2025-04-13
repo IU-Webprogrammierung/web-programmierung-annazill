@@ -46,43 +46,52 @@
             <a href="designer-portfolio.html" class="back-link">
                 ← Zurück zur Übersicht
             </a>
-    
+
             <div class="tags">
                 <span class="tag">Tag</span>
                 <span class="tag">Langer Tag</span>
                 <span class="tag">Kleiner</span>
             </div>
-    
-            <h2>Name des Projekts</h2>
-    
+
+            <h2>Bubbles' Tagebuch</h2>
+
             <div class="project-info">
                 <div>
                     <h4>Bodytext</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet tristique massa.</p>
+                    <p>
+                        Bubbles' Tagebuch ist ein interaktives Tagebuch für deine Gedanken und Geschichten. Tagebuch
+                        schreiben fördert die geistige Gesundheit, hilft dabei, achtsam zu sein, und lässt dich deine
+                        Gedanken in Gesellschaft des freundlichen, neugierigen (und immerzu knuddeligen) Bären namens
+                        Bubbles reflektieren. Gemeinsam baut ihr ein lebendiges Tagebuch auf - ein Ort, an dem ihr die
+                        Erinnerungen des Lebens sammelt, wie in einem Zuhause. Ein lebendiges Tagebuch ist ein Dialog
+                        mit dir selbst; Bubbles macht diese Konversation ein bisschen einfacher. Du kannst deine eigenen
+                        Einträge verfassen oder dich von Bubbles leiten lassen.
+                    </p>
                 </div>
                 <div>
                     <h4>Key Facts:</h4>
                     <ul>
-                        <li>Lorem Ipsum</li>
-                        <li>Lorem Ipsum</li>
-                        <li>Lorem Ipsum</li>
+                        <li>Veröffentlichung 2023</li>
+                        <li>Andauernde Weiterentwicklung gemeinsam mit meinem Freund</li>
+                        <li>10% der Einnahmen werden monatlich an die Deutsche Depressionshilfe gespendet</li>
                     </ul>
                 </div>
             </div>
-    
+
             <div class="project-image">
-                <img src="images/uxui/projectImage.png" alt="Projektbild">
+                <img src="images/uxui/img_project_bubbles.png" alt="Projektbild">
             </div>
         </section>
-    
+
         <section class="fullwidth-buttons">
             <a href="#">Projekt ABCDE ansehen →</a>
             <a href="#">Projekt ABCDE ansehen →</a>
         </section>
     </main>
-    
+
 
     <!-- Footer -->
     <footer class="footer"> </footer>
 </body>
+
 </html>
