@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UX/UI Project</title>
+    <title>LUMEO Tunnelüberwachung</title>
     <link rel="icon" type="image/png" href="/images/favicon.png">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:500,900">
@@ -48,16 +48,15 @@
             </a>
 
             <div class="tags">
-                <span class="tag">Tag</span>
-                <span class="tag">Langer Tag</span>
-                <span class="tag">Kleiner</span>
+                <span class="tag">Case Study</span>
+                <span class="tag">Uniprojekt</span>
+                <span class="tag">UX/UI</span>
             </div>
 
             <h2>LUMEO Tunnelüberwachung</h2>
 
             <div class="project-info">
                 <div>
-                    <h4>Bodytext</h4>
                     <p>
                         Die Überwachung von Tunneln erfordert das schnelle Erfassen und Bewerten verschiedener
                         Informationen, besonders in zeitkritischen Notfällen. Ein komplexes System wie dieses muss
@@ -82,8 +81,8 @@
         </section>
 
         <section class="fullwidth-buttons">
-            <a href="#">Projekt ABCDE ansehen →</a>
-            <a href="#">Projekt ABCDE ansehen →</a>
+            <a href="designer-portfolio-gameInn">Projekt GameInn Hotel ansehen →</a>
+            <a href="designer-portfolio-bubbles">Projekt Bubbles' Tagebuch ansehen →</a>
         </section>
     </main>
 

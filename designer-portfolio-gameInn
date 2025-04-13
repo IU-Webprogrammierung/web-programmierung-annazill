@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bubbles' Tagebuch</title>
+    <title>GameInn Hotel</title>
     <link rel="icon" type="image/png" href="/images/favicon.png">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:500,900">
@@ -48,42 +48,38 @@
             </a>
 
             <div class="tags">
-                <span class="tag">App</span>
-                <span class="tag">Privates Projekt</span>
+                <span class="tag">Web Design</span>
+                <span class="tag">Uniprojekt</span>
                 <span class="tag">UX/UI</span>
             </div>
 
-            <h2>Bubbles' Tagebuch</h2>
+            <h2>GameInn Hotel</h2>
 
             <div class="project-info">
                 <div>
                     <p>
-                        Bubbles' Tagebuch ist ein interaktives Tagebuch für deine Gedanken und Geschichten. Tagebuch
-                        schreiben fördert die geistige Gesundheit, hilft dabei, achtsam zu sein, und lässt dich deine
-                        Gedanken in Gesellschaft des freundlichen, neugierigen (und immerzu knuddeligen) Bären namens
-                        Bubbles reflektieren. Gemeinsam baut ihr ein lebendiges Tagebuch auf - ein Ort, an dem ihr die
-                        Erinnerungen des Lebens sammelt, wie in einem Zuhause. Ein lebendiges Tagebuch ist ein Dialog
-                        mit dir selbst; Bubbles macht diese Konversation ein bisschen einfacher. Du kannst deine eigenen
-                        Einträge verfassen oder dich von Bubbles leiten lassen.
+                        Das GameInn ist ein Hotel für Videospielbegeisterte FLINTA*, dessen Konzept und Website ich im
+                        Rahmen meines UX-Studiums iterativ erarbeitet habe. Die Website lebt von ihrem ausgefallenen
+                        Design und der Liebe zum Detail.
                     </p>
                 </div>
                 <div>
                     <h4>Key Facts:</h4>
                     <ul>
-                        <li>Veröffentlichung 2023</li>
-                        <li>10% der Einnahmen werden monatlich an die Deutsche Depressionshilfe gespendet</li>
+                        <li>12-wöchiger Designprozess</li>
+                        <li>Entwicklung eines Desktop- und Mobile Web-Prototypen</li>
                     </ul>
                 </div>
             </div>
 
             <div class="project-image">
-                <img src="images/uxui/img_project_bubbles.png" alt="Projektbild">
+                <img src="images/uxui/img_project_gameinn.png" alt="Projektbild">
             </div>
         </section>
 
         <section class="fullwidth-buttons">
             <a href="designer-portfolio-lumeo">Projekt LUMEO Tunnelüberwachung ansehen →</a>
-            <a href="designer-portfolio-gameInn">Projekt GameInn Hotel ansehen →</a>
+            <a href="designer-portfolio-bubbles">Projekt Bubbles' Tagebuch ansehen →</a>
         </section>
     </main>
 
