@@ -153,6 +153,10 @@ h3 {
     text-decoration: underline;
 }
 
+.navbar, .navbar li, #navbar-links, #navbar-links li {
+    list-style: none;
+}
+
 /* Desktop */
 @media screen and (min-width: 1025px) {
     #navbar-links {
